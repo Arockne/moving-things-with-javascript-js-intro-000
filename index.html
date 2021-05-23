@@ -14,7 +14,7 @@
       var dodger = document.getElementById('dodger');
       dodger.style.backgroundColor = '#FF69B4'
       
-      document.addEventListener('keypress', e => console.log(e.which));
+      document.body.addEventListener('keypress', e => console.log(e.which));
       
       function moveDodgerLeft() {
         var leftNumbers = dodger.style.left.replace('px', '');
